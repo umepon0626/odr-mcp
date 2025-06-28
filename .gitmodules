@@ -1,0 +1,3 @@
+[submodule "opendrive-test-files"]
+	path = opendrive-test-files
+	url = https://github.com/carla-simulator/opendrive-test-files.git
