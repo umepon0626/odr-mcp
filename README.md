@@ -36,11 +36,11 @@ git submodule update --init --recursive
 
 ### 2. miseを使った環境構築（推奨）
 
-このプロジェクトは [mise](https://github.com/jdx/mise) を使ったバージョン管理・依存管理に対応しています。
+このプロジェクトは [mise](https://mise.jdx.dev/getting-started.html) を使ったバージョン管理・依存管理に対応しています。
 
 #### miseのインストール
 
-[mise公式ドキュメント](https://mise.jdx.dev/ja/install.html) を参考にインストールしてください。
+[mise公式ドキュメント](https://mise.jdx.dev/getting-started.html) を参考にインストールしてください。
 
 #### Python・uvのインストールと依存関係のセットアップ
 
@@ -75,13 +75,9 @@ source .venv/bin/activate  # Linux/macOS
 
 ### MCPサーバーとして実行
 
-```bash
-python main.py
-```
-
-#### 仮想環境のPythonパスを明示的に指定する場合
-
 MCPサーバーとして外部ツールやプロセスから起動する場合、仮想環境のPythonパスを明示的に指定する必要があります。
+
+以下はcursorでmcpサーバーとして使用する例です。
 
 例：
 ```json
